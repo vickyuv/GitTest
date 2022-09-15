@@ -24,6 +24,6 @@ public class BingTest {
 		wd.get("https://www.bing.com/");
 		wd.findElement(By.name("q")).sendKeys("villupuram");
 	    File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(src, new File("D:/eclips workspace/E1_Git/screenshot.png"));
+		FileHandler.copy(src, new File("D:/eclips workspace/E1_Git/screenshot/bing.png"));
 	}
 }
